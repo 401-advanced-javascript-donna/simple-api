@@ -4,13 +4,19 @@
       "_id": 1,
       "name": "horror",
       "display_name": "Horror",
-      "description": "Scary stuff"
+      "description": "Scary stuff!"
     },
     {
       "_id": 2,
       "name": "drama",
       "display_name": "Drama",
       "description": "Dramatic stuff"
+    },
+    {
+      "_id": 3,
+      "name": "comedy",
+      "display_name": "Comedy",
+      "description": "Funny stuff"
     }
   ],
   "products": [
@@ -20,13 +26,6 @@
       "name": "ghost",
       "display_name": "Ghost",
       "description": "Only a little scary..."
-    },
-    {
-      "_id": 2,
-      "category": "drama",
-      "name": "romance",
-      "display_name": "Romance",
-      "description": "The worst kind of drama..."
     },
     {
       "_id": 3,
@@ -41,6 +40,20 @@
       "name": "crime",
       "display_name": "Crime",
       "description": "Best kind of drama."
+    },
+    {
+      "category": "horror",
+      "name": "monster",
+      "display_name": "Monster",
+      "description": "Not all monsters are monsters.",
+      "_id": 5
+    },
+    {
+      "category": "horror",
+      "name": "dark",
+      "display_name": "Dark",
+      "description": "The best kind of comedy",
+      "_id": 6
     }
   ]
 }
