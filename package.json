@@ -1,0 +1,30 @@
+{
+  "name": "simple-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server ./data/db.json --routes routes.json --id _id",
+    "test": "jest --verbose",
+    "test-watch": "jest --verbose --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-donna/simple-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.4.0"
+  },
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-donna/simple-api/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-donna/simple-api#readme",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "json-server": "^0.15.1",
+    "lodash": "^4.17.15"
+  }
+}
