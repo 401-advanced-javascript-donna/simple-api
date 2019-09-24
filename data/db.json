@@ -1,16 +1,46 @@
 {
   "categories": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "_id": 1,
+      "name": "horror",
+      "display_name": "Horror",
+      "description": "Scary stuff"
+    },
+    {
+      "_id": 2,
+      "name": "drama",
+      "display_name": "Drama",
+      "description": "Dramatic stuff"
     }
   ],
   "products": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "_id": 1,
+      "category": "horror",
+      "name": "ghost",
+      "display_name": "Ghost",
+      "description": "Only a little scary..."
+    },
+    {
+      "_id": 2,
+      "category": "drama",
+      "name": "romance",
+      "display_name": "Romance",
+      "description": "The worst kind of drama..."
+    },
+    {
+      "_id": 3,
+      "category": "horror",
+      "name": "serial_killer",
+      "display_name": "Serial Killer",
+      "description": "Super scary!"
+    },
+    {
+      "_id": 4,
+      "category": "drama",
+      "name": "crime",
+      "display_name": "Crime",
+      "description": "Best kind of drama."
     }
   ]
 }
